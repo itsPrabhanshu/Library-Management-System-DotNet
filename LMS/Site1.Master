@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LMS.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <center>
+            <h1>Library Management System</h1>
+            <hr />
+            <table width="100%">
+                <tr>
+                    <td><a href="page_home.aspx">Home</a></td>
+                    <td><a href="page_newstudent.aspx">NewStudent</a></td>
+                    <td><a href="page_searchstudent.aspx">SearchStudent</a></td>
+                    <td><a href="page_allstudent.aspx">AllStudents</a></td>
+                    <td><a href="page_editstudent.aspx">EditStudent</a></td>
+                    <td><a href="page_newbook.aspx">NewBook</a></td>
+                    <td><a href="page_searchbook.aspx">SearchBook</a></td>
+                    <td><a href="page_allbook.aspx">AllBook</a></td>
+                    <td><a href="page_editbook.aspx">EditBook</a></td>
+                    <td><a href="page_bookissue.aspx">BookIssue</a></td>
+                    <td><a href="page_submit.aspx">Submit</a></td>
+                    <td><a href="page_allrequest.aspx">AllRequest</a></td>
+                    <td><a href="Logout.aspx">Logout</a></td>
+                    
+                </tr>
+            </table>
+            <hr />
+        </center>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

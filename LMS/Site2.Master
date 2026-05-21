@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="LMS.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <center>
+            <h1>Student Panel</h1>
+            <hr />
+            <table width="100%">
+                <tr>
+                    <td><a href="page_profile.aspx">Profile</a></td>
+                    <td><a href="page_booksearch.aspx">SearchBook</a>
+                    <td><a href="page_bookall.aspx">AllBooks</a></td>
+                    <td><a href="page_myissue.aspx">MyIssue</a></td>
+                    <td><a href="page_bookrequest.aspx">BookRequest</a></td>
+                    <td><a href="page_requeststatus.aspx">RequestStatus</a></td>
+                    <td><a href="page_updatepassword.aspx">UpdatePassword</a></td>
+                    <td><a href="logout2.aspx">Logout</a></td>
+                </tr>
+            </table>
+        </center>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
