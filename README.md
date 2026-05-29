@@ -1,5 +1,19 @@
-Library Management System
+# Library Management System
 
-A functional Library Management System built using .NET and C#, utilizing MS Access as the backend database. The system enables efficient management of book issuance, returns, and student records, improving overall library workflow and data organization.
+Library Management System developed using .NET and C# with MS Access as the backend database. The application streamlines library operations by managing student records, book inventories, book issuance and returns, and request tracking.
 
-Tech Stack: .NET, C#, MS Access
+## Features
+
+* Student Management
+* Book Management
+* Book Search
+* Book Issue & Return
+* Student Profiles
+* Book Requests & Status Tracking
+* Record Update & Maintenance
+
+## Tech Stack
+
+* .NET
+* C#
+* MS Access
